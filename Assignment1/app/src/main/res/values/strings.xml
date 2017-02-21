@@ -1,0 +1,200 @@
+<resources>
+
+    <string name="app_name">Assigment1</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_assignment2">Assignment2</string>
+
+    <string-array name="Country">
+        <item> Australia</item>
+        <item> Brazil</item>
+        <item> India</item>
+
+    </string-array>
+    <string-array name="Australiastate">
+        <item>Queensland</item>
+        <item>SouthAustralia</item>
+        <item>Tasmania</item>
+    </string-array>
+    <string-array name="Brazilstate">
+        <item>Acre</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+    </string-array>
+    <string-array name="IndiaState">
+        <item> Madhya Pradesh</item>
+        <item> Rajasthan</item>
+        <item> Uttar Pradesh</item>
+    </string-array>
+
+
+    <string-array name="State">
+        <item> MadhyaPradesh</item>
+        <item> Rajasthan</item>
+        <item> UttarPradesh</item>
+        <item> TamilNadu</item>
+        <item> Karnataka</item>
+    </string-array>
+
+    <string-array name="MadhyaPradesh">
+        <item> Indore</item>
+        <item> Bhopal</item>
+        <item> Jabalpur</item>
+        <item> Ujjain</item>
+        <item> Gwalior</item>
+    </string-array>
+
+    <string-array name="Rajasthan">
+        <item> Jaipur</item>
+        <item> Kota</item>
+        <item> Bikaner</item>
+        <item> Ajmer</item>
+        <item> Jhalawar</item>
+    </string-array>
+
+    <string-array name="UttarPradesh">
+        <item> Kanpur</item>
+        <item> Muradabad</item>
+        <item> Mathura</item>
+        <item> Lucknow</item>
+        <item> Agra</item>
+    </string-array>
+
+    <string-array name="TamilNadu">
+        <item> Tiruchirappalli</item>
+        <item> Chennai</item>
+        <item> Coimbatore</item>
+        <item> Thanjavur</item>
+        <item> Vellore</item>
+    </string-array>
+
+    <string-array name="Karnataka">
+        <item> Bengaluru</item>
+        <item> Manglore</item>
+        <item> Mysore</item>
+        <item> Udupi</item>
+        <item> Shimoga</item>
+    </string-array>
+
+    <string-array name="Queensland">
+        <item>Bundaberg</item>
+        <item>Caboolture</item>
+        <item>Caloundra</item>
+        <item>Gympie</item>
+        <item>Mackay</item>
+    </string-array>
+
+    <string-array name="SouthAustralia">
+        <item>Adelaide</item>
+        <item>MountBarker</item>
+        <item>MountGambier</item>
+        <item>MurrayBridge</item>
+        <item>Whyalla</item>
+    </string-array>
+    <string-array name="Tasmania">
+        <item>Launceston</item>
+        <item>Devonport</item>
+        <item>Burnie</item>
+        <item>Hobart</item>
+    </string-array>
+
+    <string-array name="Acre">
+        <item>Campinas</item>
+        <item> Natal </item>
+        <item>SantoAndre </item>
+        <item>Osasco </item>
+    </string-array>
+    <string-array name="Amazonas">
+        <item>Uberlandia </item>
+        <item> Sorocaba </item>
+        <item>Londrina </item>
+        <item>Santos </item>
+    </string-array>
+
+    <string-array name="Bahia">
+        <item>VilaVelha </item>
+        <item>Florianopolis </item>
+        <item>Bauru </item>
+        <item>Blumenau </item>
+    </string-array>
+
+    <string-array name="Pincode">
+        <item>560101</item>
+        <item>560102</item>
+        <item>560103</item>
+        <item>560104</item>
+        <item>560105</item>
+        <item>620011</item>
+        <item>620012</item>
+        <item>465691</item>
+        <item>456201</item>
+    </string-array>
+
+    <string-array name="Address">
+        <item> Shipping Address</item>
+        <item> Billing Address</item>
+    </string-array>
+
+    <string name="title_activity_assignment2_1">Assignment2_1</string>
+
+    <string-array name="Listname">
+        <item> Arpit Gupta</item>
+        <item> Sangeet Kumar</item>
+        <item> Ashar Sultana</item>
+        <item> Abhilash Dhankar</item>
+        <item> Mamta Singh</item>
+        <item> Lovely Kumari</item>
+        <item> Deepa Patle</item>
+        <item> Anshul Dabas</item>
+        <item> Ayushi Garg</item>
+    </string-array>
+
+    <string name="MadhyaPradesh">
+         Madhya Pradesh, a large state in central India, retains landmarks from eras throughout Indian history.
+        Begun in the 10th century, its Hindu and Jain temples at Khajuraho are renowned for their carvings of erotic scenes, most prominently Kandariya Mahadeva, a temple with more than 800 sculptures.
+        The eastern Bandhavgarh and Kanha national parks, noted Bengal tiger sanctuaries, offer guided safaris.
+    </string>
+
+    <string name="Rajasthan">
+        Rajasthan is a northern Indian state bordering Pakistan.
+        Its palaces and forts are reminders of the many kingdoms that historically vied for the region.
+        In its capital, Jaipur (the "Pink City"), are the 18th-century City Palace and Hawa Mahal, a former cloister for royal women, fronted by a 5-story pink-sandstone screen.
+        Amer Fort, atop a nearby hill, was built by a Rajput prince in the early 1600s.
+    </string>
+
+    <string name="UttarPradesh">
+        Uttar Pradesh is a state in northern India.
+        Its city of Agra is home to the iconic Taj Mahal monument, a colossal, domed, white-marble mausoleum honouring the wife of 17th-century Mughal emperor Shah Jahan.
+        Nearby are the red-brick walls of Agra Fort, a fortified palace dating to the 16th and 17th centuries.
+        Capital Lucknow has Muslim memorial shrines Bara Imambara and calligraphy-adorned Chota Imambara.
+
+    </string>
+
+     <string name="TamilNadu">
+        Tamil Nadu, a South Indian state, is famed for its Dravidian-style Hindu temples.
+         In Madurai, Meenakshi Amman Temple has high ‘gopuram’ towers ornamented with colourful figures. On Pamban Island, Ramanathaswamy Temple is a pilgrimage site.
+         The town of Kanyakumari, at India’s southernmost tip, is the site of ritual sunrises.
+         Capital Chennai is known for beaches and landmarks including 1644 colonial Fort St. George.
+    </string>
+
+     <string name="Karnataka">
+         Karnataka is a state in southwest India with Arabian Sea coastlines.
+         The capital, Bengaluru (formerly Bangalore), is a high-tech hub known for its shopping and nightlife.
+         To the southwest, Mysore is home to lavish temples including Mysore Palace, former seat of the region’s maharajas.
+         Hampi, once the medieval Vijayanagara empire’s capital, contains ruins of Hindu temples, elephant stables and a stone chariot.
+
+    </string>
+
+
+    <string name="title_activity_fragment_activity">Fragment_activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_acitivity">fragment_acitivity</string>
+    <string name="title_activity_dynamic_fragment">Dynamic_fragment</string>
+    <string name="title_activity_view__pager">View_Pager</string>
+    <string name="title_activity_scroll_tab">Scroll_tab</string>
+    <string name="title_activity_expandable__list">Expandable_List</string>
+
+
+</resources>

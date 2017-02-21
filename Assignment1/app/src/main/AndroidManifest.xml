@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arpit.assignment1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".First.MainActivity" />
+        <activity android:name=".First.Display" />
+        <activity
+            android:name=".First.StartActivity"
+            android:label="@string/title_activity_start"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UpdateAddress.Assignment2"
+            android:label="@string/title_activity_assignment2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateAddress.Assignment2_1"
+            android:label="@string/title_activity_assignment2_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dynamic_Fragment.Dynamic_fragment"
+            android:label="@string/title_activity_dynamic_fragment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Dynamic_Fragment.FragmentCommunicate" />
+        <activity
+            android:name=".View_Pager.View_Pager"
+            android:label="@string/title_activity_view__pager"
+            android:theme="@style/AppTheme.NoActionBar" />
+     <!--   <activity
+            android:name=".tabview.Scroll_tab"
+            android:label="@string/title_activity_scroll_tab"
+            android:theme="@style/AppTheme.NoActionBar" />-->
+        <activity
+            android:name=".Tab_view.Scroll_tab.Scroll_tab"
+            android:label="@string/title_activity_scroll_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tab_view.Swipe_tab.Swipe_tab" />
+        <activity
+            android:name=".Expandable_List.Expandable_List"
+            android:label="@string/title_activity_expandable__list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment.Simple_Fragment.Fragment_Simple" />
+       <!-- <activity android:name=".ListFragmentMainActivity" />-->
+        <activity android:name=".DetailFragments.ListFragmentExample" />
+        <activity android:name=".JsonCalling.LoadMoreRecyclerViewMain" />
+        <activity android:name=".JsonCalling.JsonCall"></activity>
+    </application>
+
+</manifest>
