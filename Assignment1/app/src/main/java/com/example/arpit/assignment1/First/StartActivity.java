@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.arpit.assignment1.DatabaseSQLite.AndroidSQLiteTutorialActivity;
 import com.example.arpit.assignment1.DetailFragments.ListFragmentExample;
 import com.example.arpit.assignment1.Dynamic_Fragment.Dynamic_fragment;
 import com.example.arpit.assignment1.Dynamic_Fragment.FragmentCommunicate;
@@ -127,7 +128,7 @@ public class StartActivity extends AppCompatActivity {
         assign12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new  Intent(getApplicationContext(), JsonCall.class);
+                Intent intent = new  Intent(getApplicationContext(), AndroidSQLiteTutorialActivity.class);
                 startActivity(intent);
             }
         });

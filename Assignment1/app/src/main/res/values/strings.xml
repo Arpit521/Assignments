@@ -195,6 +195,7 @@
     <string name="title_activity_view__pager">View_Pager</string>
     <string name="title_activity_scroll_tab">Scroll_tab</string>
     <string name="title_activity_expandable__list">Expandable_List</string>
+    <string name="title_activity_android_sqlite_tutorial">AndroidSQLiteTutorialActivity</string>
 
 
 </resources>

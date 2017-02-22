@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.arpit.assignment1">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -39,10 +39,12 @@
             android:name=".View_Pager.View_Pager"
             android:label="@string/title_activity_view__pager"
             android:theme="@style/AppTheme.NoActionBar" />
-     <!--   <activity
+        <!--
+            <activity
             android:name=".tabview.Scroll_tab"
             android:label="@string/title_activity_scroll_tab"
-            android:theme="@style/AppTheme.NoActionBar" />-->
+            android:theme="@style/AppTheme.NoActionBar" />
+        -->
         <activity
             android:name=".Tab_view.Scroll_tab.Scroll_tab"
             android:label="@string/title_activity_scroll_tab"
@@ -53,10 +55,14 @@
             android:label="@string/title_activity_expandable__list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Fragment.Simple_Fragment.Fragment_Simple" />
-       <!-- <activity android:name=".ListFragmentMainActivity" />-->
+        <!-- <activity android:name=".ListFragmentMainActivity" /> -->
         <activity android:name=".DetailFragments.ListFragmentExample" />
         <activity android:name=".JsonCalling.LoadMoreRecyclerViewMain" />
-        <activity android:name=".JsonCalling.JsonCall"></activity>
+        <activity android:name=".JsonCalling.JsonCall" />
+        <activity
+            android:name=".DatabaseSQLite.AndroidSQLiteTutorialActivity"
+            android:label="@string/title_activity_android_sqlite_tutorial"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -113,19 +113,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
             {
                 String state = parent.getItemAtPosition(position).toString();
-                ArrayAdapter<CharSequence> cities = null;
+                ArrayAdapter<CharSequence> cities =null;
                 switch (state)
                 {
-                    case "Madhya Pradesh" :
+                    case "MadhyaPradesh" :
                         cities = ArrayAdapter.createFromResource(MainActivity.this,R.array.MadhyaPradesh,R.layout.support_simple_spinner_dropdown_item);
                         break;
                     case "Rajasthan" :
                         cities = ArrayAdapter.createFromResource(MainActivity.this,R.array.Rajasthan,R.layout.support_simple_spinner_dropdown_item);
                         break;
-                    case "Uttar Pradesh" :
+                    case "UttarPradesh" :
                         cities = ArrayAdapter.createFromResource(MainActivity.this,R.array.UttarPradesh,R.layout.support_simple_spinner_dropdown_item);
                         break;
-                    case "Tamil Nadu" :
+                    case "TamilNadu" :
                         cities = ArrayAdapter.createFromResource(MainActivity.this,R.array.TamilNadu,R.layout.support_simple_spinner_dropdown_item);
                         break;
                     case "Karnataka" :
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 }
 
-                cities.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+               // cities.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
                 spinner_c.setAdapter(cities);
 
             }
